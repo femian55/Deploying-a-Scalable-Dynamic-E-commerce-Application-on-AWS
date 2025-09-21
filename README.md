@@ -1,8 +1,8 @@
-# Hosting a Dynamic E-commerce Web Application on AWS
+# Deploying a Scalable Dynamic E-commerce Web Application on AWS
 
 ## Project Overview
 
-This project aims to create a highly available, scalable, and fault-tolerant e-commerce web application using AWS services. The infrastructure is designed to leverage multiple availability zones (AZs) for high availability and fault tolerance.
+This project focuses on designing and deploying a highly available, scalable, and fault-tolerant e-commerce web application on AWS. The infrastructure leverages multiple Availability Zones (AZs) to ensure redundancy, reliability, and resilience against failures.
 
 ## Architecture Overview
 
@@ -153,5 +153,6 @@ sudo service httpd restart
 
 ## Conclusion
 
-This project demonstrates the deployment of a dynamic e-commerce web application using a variety of AWS services to ensure high availability, scalability, and security. For detailed instructions and scripts, please refer to the respective files in this repository.
+This project demonstrates how to deploy a dynamic e-commerce web application on AWS using a scalable, fault-tolerant, and secure architecture. It integrates core AWS services (EC2, RDS, S3, IAM, Route 53, and ALB) with supporting tools (CloudFormation, Flyway) to ensure automation, resilience, and maintainability.
+
 
